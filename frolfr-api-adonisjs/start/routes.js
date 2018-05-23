@@ -2,4 +2,4 @@
 
 const Route = use('Route')
 
-Route.resource('courses', 'CoursesController').apiOnly();
+Route.resource('courses', 'CourseController').apiOnly();
