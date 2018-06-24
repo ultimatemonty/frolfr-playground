@@ -89,7 +89,7 @@
     winston "^2.4.1"
     youch "^2.0.7"
 
-"@adonisjs/generic-exceptions@^2.0.0":
+"@adonisjs/generic-exceptions@^2.0.0", "@adonisjs/generic-exceptions@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@adonisjs/generic-exceptions/-/generic-exceptions-2.0.1.tgz#793e33c4acf01f5e98e68535f2a7987a23bda0e3"
   dependencies:
@@ -105,16 +105,16 @@
     youch "^2.0.7"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-5.0.3.tgz#067f261df31ffb0e624b75b52e35eb3b626ddafb"
+"@adonisjs/lucid@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-5.0.4.tgz#beff10b352fb03fcfaeefdc8b7cb9be9fe9e2772"
   dependencies:
-    "@adonisjs/generic-exceptions" "^2.0.0"
-    chance "^1.0.13"
+    "@adonisjs/generic-exceptions" "^2.0.1"
+    chance "^1.0.16"
     debug "^3.1.0"
-    knex "^0.14.4"
-    lodash "^4.17.5"
-    moment "^2.20.1"
+    knex "^0.14.6"
+    lodash "^4.17.10"
+    moment "^2.22.2"
     pluralize "^7.0.0"
     pretty-hrtime "^1.0.3"
     require-all "^2.2.0"
@@ -531,7 +531,7 @@ chalk@^2.3.0, chalk@^2.3.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chance@^1.0.13:
+chance@^1.0.16:
   version "1.0.16"
   resolved "https://registry.yarnpkg.com/chance/-/chance-1.0.16.tgz#bd61912716b0010c3dca8e3948a960efcaa7bb1b"
 
@@ -1325,7 +1325,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-knex@^0.14.4:
+knex@^0.14.6:
   version "0.14.6"
   resolved "https://registry.yarnpkg.com/knex/-/knex-0.14.6.tgz#ad57c4ef8fa1b51ebc8c37c2c9b483f6fb34e41e"
   dependencies:
@@ -1538,9 +1538,9 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-moment@^2.20.1:
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
+moment@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 ms@2.0.0:
   version "2.0.0"

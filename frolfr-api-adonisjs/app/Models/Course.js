@@ -1,15 +1,15 @@
-'use strict'
+"use strict";
 
-const Model = use('Model')
+const Model = use("Model");
 
 class Course extends Model {
-    static get table    () {
-        return 'courses';
-    }
+  static get table() {
+    return "courses";
+  }
 
-    static get primaryKey() {
-        return 'id';
-    }
+  static get primaryKey() {
+    return "id";
+  }
 }
 
-module.exports = Course
+module.exports = Course;
